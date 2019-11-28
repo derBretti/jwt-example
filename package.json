@@ -1,0 +1,18 @@
+{
+  "name": "jwt-example",
+  "version": "0.0.1",
+  "description": "Simple auth server an application server using jwt",
+  "main": "index.js",
+  "author": "Sven Bretschneider",
+  "license": "none",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.0",
+    "jsonwebtoken": "^8.3.0",
+    "request": "^2.81.0"
+  }
+}
