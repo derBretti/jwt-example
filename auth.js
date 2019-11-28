@@ -9,7 +9,6 @@ const cors = require('cors');
 dotenv.config();
 
 const app = express();
-app.use(boom());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.options('/login', cors());

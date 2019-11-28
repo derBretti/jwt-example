@@ -8,7 +8,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = express();
-app.use(boom());
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 
